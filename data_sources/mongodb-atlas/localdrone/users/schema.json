@@ -1,0 +1,27 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "lastLogin": {
+            "bsonType": "date"
+        },
+        "missionsCompleted": {
+            "bsonType": "int"
+        },
+        "username": {
+            "bsonType": "string"
+        },
+        "zipcode": {
+            "bsonType": "int"
+        }
+    },
+    "required": [
+        "_id",
+        "lastLogin",
+        "missionsCompleted",
+        "username",
+        "zipcode"
+    ],
+    "title": "user"
+}
